@@ -1,0 +1,411 @@
+/*
+Theme Name: IMaR Theme 
+Theme URI: http://imar.ie/
+Author: Keith O'Faolain
+Author URI: http://imar.ie/
+Description: The WordPress Theme for the IMaR website.
+Template: flat-theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, flexible-width, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, translation-ready
+Text Domain: flattheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+@import url('../flat-theme/style.css'); 
+
+
+.top-buffer { margin-top:20px; }
+
+.bottom-buffer { margin-bottom:20px; }
+
+
+.imar-orange {
+    background-color: #f2542d;
+    color:#fff!important;
+}
+
+.imar-blue {
+    background-color: #67bdec;
+    color:#fff;
+}
+
+/* front page intro
+*/
+
+#intro{
+	font-size:18px;
+}
+
+#intro a{
+	color:#f2542d;
+	font-weight:bold;
+}
+
+#intro a:hover{
+	color:#34495E;
+}
+/*
+ * Body
+ */
+
+body{
+	padding-top: 10px;
+}
+
+#boxed {
+    background-color: #fff;
+   }
+
+/*
+ * search form 
+ */
+
+#searchform .btn-danger{
+	background-color: #f2542d;
+    color: #fff;
+    border-color: #f2542d;
+}
+
+#searchform .btn-danger:hover{
+	background-color: #67bdec;
+	border-color: #67bdec;
+}
+
+#bottom #searchform .btn-danger:hover{
+	background-color: #1A92D3;
+	border-color: #1A92D3;
+	color: #fff;
+}
+
+
+/* Footer */
+
+#footer {
+	color:#34495e;
+ /* padding-top: 30px;
+  padding-bottom: 30px;
+  
+  background-color: #f2542d;
+  
+  background-color:#fff;*/
+  
+}
+#footer a {
+  color: #67bdec;
+}
+#footer a:hover {
+  text-decoration:underline;
+  color:#f2542d;
+}
+
+.imar-footer {
+    background-color: #67bdec;
+    color:#fff!important;
+}
+
+.imar-footer h3{
+	/*color:#f2542d;*/
+}
+
+.imar-footer .glyphicon{
+    	color: #1A92D3; //#1A92D3;
+    }
+
+.imar-footer ul {
+		padding-left:10px;
+    	
+    }
+    
+.imar-footer li {
+    	list-style:none;    	
+    }
+    
+.imar-footer li a{
+    	color:#1A92D3;
+    }
+    
+    .imar-footer li a:hover{
+    	color:#f2542d;
+    }
+
+/*
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer ul > li {
+  display: inline-block;
+  margin-left: 15px;
+}
+*/
+
+/*
+Contact us
+*/
+
+#imar-location{
+    background-color: #67bdec;
+    color:#fff;
+    }
+    
+#imar-location .glyphicon-map-marker{
+    color: #f2542d;
+    margin-right:5px;
+    }
+    
+    #contact-us .glyphicon{
+    	color: #f2542d;
+    }
+    
+.gateway{
+	
+}
+#imar-location ul li{
+	list-style: none;
+}
+
+/*
+ * Partners
+ */
+
+#partners #industry div, #partners #academic div {
+
+	margin:10px 0;
+}
+
+#gateway-info{
+	background-color: #f2542d;
+    color:#fff;
+}
+
+
+#supporters{
+}
+
+#supporters li{
+	display:inline-block;
+	margin-left:40px;
+}
+
+#supporters h3{
+	color: #f2542d;
+	margin-bottom:20px;
+}
+
+ #supporters p{
+ 	text-align: left;
+ 	margin: 5px 0 0 80px;
+ 	color: #30383a;
+ 	font-size: 12px;
+ }
+ 
+ 
+ /*
+  * Team
+  */
+ 
+ #team-members h3{
+ 	color:#999999;
+ 	font-size: 16px;
+ }
+ 
+.team .team-member{
+	height:230px
+}
+
+#team-members .entry-header{
+}
+ 
+ 
+
+/*
+ * Nav bar
+ */
+
+.navbar-toggle{
+	background-color: #f2542d;
+}
+
+.navbar-toggle:hover{
+	background-color: #67bdec!important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	background-color: #f2542d;
+}
+
+ .navbar-inverse .navbar-nav>.active>a:hover{
+	background-color: #67bdec;
+	color:#fff;
+	
+}
+
+
+.navbar-inverse .navbar-nav>li a{
+	color: #67bdec;
+}
+
+.navbar-inverse .navbar-nav>li a:hover{
+	color: #f2542d;
+}
+
+#navbar-brand-small a{
+	position:relative;
+	top:5px;
+}
+
+/* 
+ * Slider
+ *
+ */
+
+#main-slider .carousel .boxed {
+  background-color: rgba(242, 84, 45, 0.8);
+  
+
+}
+
+#main-slider .carousel .btn {
+  border: none;
+  background-color: rgba(103, 189, 236, 0.8);
+  color: #fff;
+}
+#main-slider .carousel .btn:hover{
+	background-color: #67bdec;
+}
+
+.carousel-indicators .active {
+    background-color: #f2542d;;
+
+}
+.carousel-indicators li {
+    border: 1px solid #f2542d;
+   }
+   
+.carousel-indicators li:hover{
+   	border-color:  #67bdec;
+   }
+   
+.carousel-indicators .active:hover{
+   	background-color: #67bdec;
+   	border-color:  #67bdec;
+   }
+
+/*
+ * Thumbnail
+ */
+
+.img-thumbnail {
+    background-color: #67bdec;
+   }
+   
+a .img-thumbnail:hover {
+   background-color: #f2542d;
+border-radius:0;
+}
+
+/*
+ * Media queries
+ */
+
+@media(max-width:767px){
+/*
+	.gateway{
+		display:none;
+	}*/
+	
+#team-members .entry-header{
+	text-align:center;
+	
+}
+#team-members img{
+	width:200px;
+	height:200px;
+}
+
+#team-members .return-link{
+	text-align:center;
+}
+
+}
+@media(min-width:768px){
+
+}
+@media(min-width:992px){
+
+}
+@media(min-width:1200px){
+
+}
+
+#header{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;	
+	}
+
+#header.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+    max-width: 1200px;
+}
+
+#header.affix .container{
+	float:left;
+	width:100%;
+
+}
+
+
+
+
+ul#menu-main{
+	padding-bottom:15px;
+}
+
+ul#menu-main li a{
+	background-color:#f2542d;
+    color:#fff!important;
+}
+
+ul#menu-main li.active a{
+	background-color: #67bdec;
+	color:#34495e!important;
+	color:#fff;
+}
+
+ul#menu-main li a:hover{
+	background-color: #67bdec;
+    color:#fff!important;
+}
+
+ul#menu-main li.active a:hover{
+	background-color:#34495e;
+	color:#fff!important;
+}
+	
+	.jumbotron{
+		background-color:#c2e4f7;
+		background-color:#d1ebf9;
+		
+	}
+	
+
+#boxed #header{
+  left: auto;
+  min-width: 200px;
+  right: auto;
+ /* border: 1px solid red;*/
+}
+
+#main-slider .carousel .item {
+  height: 450px;
+ }
