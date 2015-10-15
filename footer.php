@@ -21,6 +21,31 @@
   </div>
 </section>
 
+<!--#social-->
+<section id="social" class="">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li>
+					<div class="social-btns clearfix">
+						<a class="btn btn-social btn-twitter" href="http://twitter.com/imar_ie" target="_blank" title="Follow IMaR on Twitter"> <i class="icon-twitter"></i> </a>
+					</div>
+				</li>
+				<li>
+					<div class="social-btns clearfix">
+						<a class="btn btn-social btn-facebook" href="https://www.facebook.com/imar.technology.gateway" target="_blank" title="Follow IMaR on Facebook"> <i class="icon-facebook"></i> </a>
+					</div>
+				</li>
+				<li>
+					<div class="social-btns clearfix">
+						<a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/company/imar-technology-gateway" target="_blank" title="Follow IMaR on Linkedin"> <i class="icon-linkedin"></i> </a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
 <!--#supporters-->
 <section id="supporters" class="">
 	<div class="container">
