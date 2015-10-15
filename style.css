@@ -158,6 +158,15 @@ body{
   margin-left: 15px;
 }
 
+/* github */
+
+.btn-social.btn-github {
+    background: #171515 none repeat scroll 0 0;
+}
+.btn-social.btn-github:hover {
+    background: #433e33 none repeat scroll 0 0;
+}
+
 /*
 Contact us
 */
