@@ -77,9 +77,6 @@
 							<img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/partner_logos/dairymaster.png" class="img-responsive" />
 						</div>
 						<div class="col-xs-6 col-sm-2 col-md-3">
-							<img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/partner_logos/beru.png" class="img-responsive" />
-						</div>
-						<div class="col-xs-6 col-sm-2 col-md-3">
 							<img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/partner_logos/liebherr.png" class="img-responsive" />
 						</div>						
 						<div class="col-xs-6 col-sm-2 col-md-3">
