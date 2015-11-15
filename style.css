@@ -431,3 +431,50 @@ ul#menu-main li.active a:hover{
 #main-slider .carousel .item {
   height: 450px;
  }
+ 
+ #pricing-table .plan {
+  border-radius: 4px;
+  list-style: none;
+  margin: 0 0 20px;
+  background: #F2542D;
+  text-align: center;
+  padding: 30px 0;
+}
+#pricing-table .plan li {
+  padding: 5px 0;
+  color: #fff;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+#pricing-table .plan li.plan-name {
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+#pricing-table .plan li.plan-name h3 {
+  margin: 0;
+}
+#pricing-table .plan li.plan-icon {
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin-left:10px;
+}
+
+#pricing-table .plan li.plan-icon i{
+	background-color:#67BDEC;
+}
+
+/*
+#pricing-table .plan li.plan-icon i.rfid{
+	background-color:#67bdec;
+}*/
+
+
+#pricing-table .plan li.plan-action {
+  margin-top: 10px;
+  border-top: 0;
+}
+
