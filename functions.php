@@ -79,6 +79,7 @@ add_shortcode( 'imar_team', function( $atts, $content = null ){
     'posts_per_page' => -1,
    'post_type'      =>  'zee_team',
    'order'            => 'ASC',
+   'orderby'		=> 'menu_order'
    
    );
 
@@ -158,6 +159,44 @@ function my_login_logo() { ?>
 add_action( 'zee_admin_logo', 'my_login_logo' );*/
 
 
+// Post type:  Team
+
+//if( ! function_exists('zee_scripts') ){
+
+
+add_action('init', function(){
+
+    $labels = array(
+        'name'                  => __( 'Team',                      ZEETEXTDOMAIN ),
+        'singular_name'         => __( 'Team',                      ZEETEXTDOMAIN ),
+        'menu_name'             => __( 'Team',                      ZEETEXTDOMAIN ),
+        'all_items'             => __( 'Team Members',              ZEETEXTDOMAIN ),
+        'add_new'               => __( 'Add New',                   ZEETEXTDOMAIN ),
+        'add_new_item'          => __( 'Add New Member',            ZEETEXTDOMAIN ),
+        'edit_item'             => __( 'Edit Member',               ZEETEXTDOMAIN ),
+        'new_item'              => __( 'New Member',                ZEETEXTDOMAIN ),
+        'view_item'             => __( 'View Member',               ZEETEXTDOMAIN ),
+        'search_items'          => __( 'Search Member',             ZEETEXTDOMAIN ),
+        'not_found'             => __( 'No Member found',           ZEETEXTDOMAIN ),
+        'not_found_in_trash'    => __( 'No Member found in Trash',  ZEETEXTDOMAIN )
+        );
+
+$args = array(
+    'labels'                => $labels,
+    'public'                => true,
+    'has_archive'           => false,
+    'exclude_from_search'   => true,
+    'menu_icon'             => get_template_directory_uri() . '/admin/images/icon-team.png',
+	// 'rewrite'               => true,
+    'rewrite' => array( 'slug' => 'team', 'with_front' => false ),
+   
+    'capability_type'       => 'post',
+    'supports'              => array('title', 'editor', 'thumbnail', 'page-attributes'),
+    'hierarchical' => false
+    );
+register_post_type('zee_team', $args);
+flush_rewrite_rules();
+});
 
 
 
