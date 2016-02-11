@@ -198,6 +198,10 @@ register_post_type('zee_team', $args);
 flush_rewrite_rules();
 });
 
+// disable the wpautop filter 
+
+remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );
 
 
 
