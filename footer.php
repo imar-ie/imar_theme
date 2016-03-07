@@ -79,7 +79,7 @@
 						</a>
 					</li>
 					<li>
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/imar_tg.png" alt="IMaR" width="240" height="60" />
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tech_gateway.png" alt="IMaR" width="240" height="60" />
 					</li>
 				</ul>	
 				<p>
