@@ -431,3 +431,35 @@ ul#menu-main li.active a:hover{
 #main-slider .carousel .item {
   height: 450px;
  }
+
+#pricing-table .plan{
+	    background-color: #f2542d;
+    color: #fff !important;
+    text-align: center;
+    padding:15px;
+}
+
+#pricing-table ul.plan {
+	list-style: none;
+	 text-align: center;
+
+	
+	
+}
+
+li.plan-icon {
+	
+	margin:40px 0;
+	
+}
+
+li.plan-icon i{
+	
+	display: inline-block;
+
+    	 text-align: center;
+    	 margin-left:auto;
+    	  margin-right:auto;
+   
+}
+
