@@ -41,11 +41,6 @@
 						<a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/company/imar-technology-gateway" target="_blank" title="Follow IMaR on Linkedin"> <i class="icon-linkedin"></i> </a>
 					</div>
 				</li>
-				<li>
-					<div class="social-btns clearfix">
-						<a class="btn btn-social btn-github" href="https://github.com/imar-ie" target="_blank" title="Follow IMaR on Github"> <i class="icon-github-alt"></i> </a>
-					</div>
-				</li>
 			</ul>
 		</div>
 	</div>
