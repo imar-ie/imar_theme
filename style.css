@@ -463,3 +463,23 @@ li.plan-icon i{
    
 }
 
+/*
+ * testiomial 
+ */
+ 
+.imar-home-testimonials{
+    background-color: #f2542d;
+    color: #fff !important;
+}
+
+.imar-home-testimonials .designation{
+	color:#67bdec;
+	font-size:120%;
+	font-weight:bold;
+}
+
+.imar-home-testimonials blockquote{
+	border-color: #67bdec;
+}
+
+
