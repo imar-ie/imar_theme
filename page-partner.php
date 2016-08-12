@@ -25,7 +25,8 @@
                 </div>
                 <?php } ?>
                 <div class="entry-content">
-                    <?php the_content(); ?>
+                    
+                    <div class="lead">IMaR actively engages in multidisciplinary research and development initiatives across an Academic and Industrial partner base. Some of our valued partners include:</div>
                     <?php zee_link_pages(); ?>
                 </div>
             </article>
@@ -170,6 +171,9 @@
 					</div>
 				</div>
 			</div>
+			
+			<h2>Client Companies</h2>
+			<?php the_content(); ?>
                 
             </div><!--/.row-->
         </div><!--/.container-->
