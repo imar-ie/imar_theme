@@ -22,16 +22,14 @@
   <header class="masthead">
   <div class="container">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-5">
       <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" >
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_imar.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
         </a>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-7">
       <div class="pull-right hidden-xs">    
-                <a class="navbar-brand pull-right gateway" target="_blank" href="http://www.technologygateway.ie/" >
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tech_gateway.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
-        </a>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/funders.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
       </div>
     </div>
   </div>
