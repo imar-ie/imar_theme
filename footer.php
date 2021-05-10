@@ -16,7 +16,7 @@
 <section id="gateway-info" class="hidden-xs">
   <div class="container">
     <div class="row">
-      IMaR is part of the Technology Gateway Network, a nationwide resourse for industry aimed at assisting in the delivery of innovative and/or near to market solutions for both local and national industry.
+      IMaR is part of the Munster Technological University, a nationwide resourse for industry aimed at assisting in the delivery of innovative and/or near to market solutions for both local and national industry.
     </div>
   </div>
 </section>
@@ -54,23 +54,13 @@
 				<!--<h3>Funding partners (?):</h3>-->
 				<ul>
 					<li>
-						<a href="http://eustructuralfunds.gov.ie/" target="_blank" title="EU Structural Funds in Ireland">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/eu_struct.png" alt="EU Structural Funds in Ireland" width="194" height="60" />
-						</a>
-					</li>
-					<li>
-						<a href="http://ec.europa.eu/regional_policy/thefunds/regional/index_en.cfm" target="_blank" title="European Regional Development Fund">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/erdf.png" alt="European Regional Development Fund" width="72" height="60" />
-						</a>
-					</li>
-					<li>
 						<a href="http://www.enterprise-ireland.com/" target="_blank" title="Enterprise Ireland">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/ei.png" alt="Enterprise Ireland" width="195" height="60" />
 						</a>
 					</li>
 					<li>
-						<a href="http://www.ittralee.ie" target="_blank" title="Institute of Technology Tralee">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/itt.png" alt="Institute of Technology Tralee" width="72" height="60" />
+						<a href="http://www.ittralee.ie" target="_blank" title="Munster Technological University ">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/mtu.png" alt="Munster Technological University" width="230" height="60" />
 						</a>
 					</li>
 					<li>

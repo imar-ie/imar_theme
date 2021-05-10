@@ -28,8 +28,10 @@
         </a>
     </div>
     <div class="col-sm-7">
-      <div class="pull-right hidden-xs">    
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/funders.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
+      <div class="pull-right hidden-xs">
+          <a class="navbar-brand" href="https://www.mtu.ie/" target="_blank" >
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/funders.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
+          </a>
       </div>
     </div>
   </div>
