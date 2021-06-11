@@ -118,7 +118,7 @@
 			</div>
 
 <h2>Academic Partners</h2>
-<p>Research collaboration at IMaR is defined by the strength of our Academic Partners. IMaR aims to work with the best academic institutions in Europe and beyond. Here is a list of some of out academic partners:
+<p>Research collaboration at IMaR is defined by the strength of our Academic Partners. IMaR aims to work with the best academic institutions in Europe and beyond. Here is a list of some of our academic partners:
 </p>
 
 <div class="row show-grid">
@@ -167,6 +167,15 @@
 												<div class="col-xs-6 col-sm-2 col-md-3">
 							<img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/partner_logos/unesco.png" class="img-responsive" />
 						</div>
+						<div class="col-xs-6 col-sm-2 col-md-3">
+                            <img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/partner_logos/sfi_confirm.png" class="img-responsive" />
+                        </div>
+                                                <div class="col-xs-6 col-sm-2 col-md-3">
+                            <img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/partner_logos/sfi_lero.png" class="img-responsive" />
+                        </div>
+                                                <div class="col-xs-6 col-sm-2 col-md-3">
+                            <img alt="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/partner_logos/bim.png" class="img-responsive" />
+                        </div>
 
 					</div>
 				</div>
