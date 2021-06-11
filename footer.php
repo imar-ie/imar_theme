@@ -16,7 +16,7 @@
 <section id="gateway-info" class="hidden-xs">
   <div class="container">
     <div class="row">
-      IMaR is part of the Munster Technological University, a nationwide resourse for industry aimed at assisting in the delivery of innovative and/or near to market solutions for both local and national industry.
+      IMaR is part of the Munster Technological University, a nationwide resource for industry aimed at assisting in the delivery of innovative and/or near to market solutions for both local and national industry.
     </div>
   </div>
 </section>
