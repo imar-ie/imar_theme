@@ -52,8 +52,8 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-					The <strong>Intelligent Mechatronics and RFID (IMaR) Research Centre</strong> is based at <strong>Munster Technological University (MTU)</strong> and is part of the <a href="http://www.enterprise-ireland.com/en/Research-Innovation/Companies/Collaborate-with-companies-research-institutes/Technology-Gateway-Programme.html" target="_blank">Technology Gateway Network</a>, a nationwide resource for industry based in the Technological Universities and Institutes of Technology which deliver solutions on near to market problems for industrial partners.
-					<strong>IMaR</strong> provides solutions for companies using mechatronics, electronics, automation technologies, software, IoT, RFID and data analytics.
+					The <strong>Intelligent Mechatronics and RFID (IMaR) Technology Gateway</strong> is based at <strong>Munster Technological University</strong> and is part of the <a href="http://www.enterprise-ireland.com/en/Research-Innovation/Companies/Collaborate-with-companies-research-institutes/Technology-Gateway-Programme.html" target="_blank">Technology Gateway Network</a>, a nationwide resource for industry based in the IoTs delivering solutions on near to market problems for industrial partners.
+					<strong>IMaR</strong> provides solutions for companies using Intelligent Mechatronics, RFID and Internet of Things.
 			</div>
 		</div>
 	</div>
