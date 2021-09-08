@@ -12,9 +12,14 @@ if( is_single() ) {
 	
 	$title = "Team";		
 	$sub_title = '';
-		
-	}else{
-		
+
+	} elseif(in_category(23)){
+
+		$title = get_cat_name(23);
+		$sub_title = category_description(23);
+
+	} else{
+
     $title = zee_option('zee_blog_title');
 
     $sub_title = zee_option('zee_blog_subtitle');
