@@ -13,10 +13,16 @@ if( is_single() ) {
 	$title = "Team";		
 	$sub_title = '';
 
+	} elseif($post_type =='zee_portfolio'){
+
+		$title = "Case Study";
+		$sub_title = get_the_title() ;
+
 	} elseif(in_category(23)){
 
 		$title = get_cat_name(23);
 		$sub_title = category_description(23);
+
 
 	} else{
 

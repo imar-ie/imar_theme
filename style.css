@@ -243,8 +243,20 @@ Contact us
 
 #team-members .entry-header{
 }
- 
- 
+
+/*
+ * Case Study
+ */
+
+#case-study h3{
+ color:#999999;
+ font-size: 16px;
+}
+
+#case-study blockquote{
+  font-size: 24px;
+  margin:2em;
+}
 
 /*
  * Nav bar

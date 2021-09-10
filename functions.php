@@ -231,6 +231,98 @@ add_shortcode( 'imar_directors', function( $atts, $content = null ){
     <?php
 
 });
+
+
+
+/* Override the portfolio shortcode */
+
+
+remove_shortcode( 'zee_portfolio' );
+
+  /**
+   * Portfolio Shortcode
+   * @param  [type] $atts
+   * @param  string $content
+   * @return [type]
+   */
+
+  add_shortcode( 'zee_portfolio', function( $atts, $content = null ){
+   $atts = shortcode_atts(
+    array(
+      'column' => '3'
+      ), $atts);
+
+   extract($atts);
+
+   $args = array(
+      'posts_per_page' => -1,
+      'post_type'      =>  'zee_portfolio'
+    );
+
+   $portfolios = get_posts( $args );
+
+   ob_start();
+
+   if(count($portfolios)>0){ ?>
+   <div id="portfolio" class="clearfix">
+
+    <ul class="portfolio-filter">
+      <li><a class="btn btn-default active" href="#" data-filter="*"><?php _e('All', ZEETEXTDOMAIN); ?></a></li>
+      <?php
+      $terms = get_terms('cat_portfolio', array('hide_empty'=> true));
+      foreach ($terms as $term) {
+        ?>
+        <li><a class="btn btn-default" href="#" data-filter=".<?php echo $term->slug; ?>"><?php echo $term->name; ?></a></li>
+        <?php
+      }
+      ?>
+    </ul>
+
+    <ul class="portfolio-items col-<?php echo $column; ?>">
+      <?php foreach ($portfolios as $key => $value) { ?>
+      <?php
+      $terms = wp_get_post_terms( $value->ID, 'cat_portfolio' );
+      $new_terms = array();
+      foreach ($terms as $term) $new_terms[] = $term->slug;
+      $slugs = implode(' ', $new_terms);
+      ?>
+      <li class="portfolio-item <?php echo $slugs; ?>">
+        <div class="item-inner">
+
+          <?php //thumbnail
+
+          if (has_post_thumbnail($value -> ID)) {
+          echo get_the_post_thumbnail( $value->ID, 'thumbnail', array(
+            'class' => "img-responsive",
+            'alt' => trim(strip_tags( $value->post_title )),
+            'title' => trim(strip_tags( $value->post_title ))
+            ));
+          } else{
+            echo '<img width="295" height="300" src="/wp-content/uploads/2014/06/team_holder-300x300.jpg" class="img-responsive" alt="'.trim(strip_tags($value->post_title)).'" title="'.trim(strip_tags($value->post_title)).'" />';
+
+          }
+            ?>
+            <a href="<?php echo get_permalink( $value->ID ); ?>"><h5><?php echo $value->post_title; ?></h5></a>
+            <div class="overlay">
+
+              <a class="preview btn btn-primary" href="<?php echo get_permalink( $value->ID ); ?>" rel=""><i class="icon-eye-open"></i></a>
+            </div>
+          </div>
+        </li>
+        <?php } ?>
+      </ul>
+    </div>
+    <?php } else { ?>
+    <div class="alert alert-danger fade in">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <?php _e('No portfolio item found!', ZEETEXTDOMAIN); ?>
+    </div>
+    <?php
+  }
+  return ob_get_clean();
+
+  });
+
 }
 
 /* replace the login logo */
