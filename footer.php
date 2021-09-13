@@ -1,4 +1,4 @@
-<?php if(!is_page()) { ?>
+<?php if (!is_page()) { ?>
 </div><!--/#primary-->
 </div><!--/.col-lg-12-->
 </div><!--/.row-->
@@ -84,8 +84,9 @@
       </div>
       <div class="col-sm-8 hidden-xs">
         <ul class="pull-right">
-          <?php 
-          wp_nav_menu( array(
+          <?php
+          wp_nav_menu(
+              array(
             'theme_location' => 'footer',
             'container'  => false,
             'menu_class' => '',
@@ -102,7 +103,7 @@
   </div>
 </footer><!--/#footer-->
 
-  <?php if(zee_option('zee_theme_layout')=='boxed'){ ?>
+  <?php if (zee_option('zee_theme_layout')=='boxed') { ?>
     </div><!--/#boxed-->
   <?php } ?>
 

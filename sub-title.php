@@ -5,93 +5,70 @@ require_once(get_template_directory(). '/lib/breadcrumbs.php');
 
 global $post;
 
-if( is_single() ) {
-	$post_type = get_post_type();
-	
-	if($post_type =='zee_team'){
-	
-	$title = "Team";		
-	$sub_title = '';
+if (is_single()) {
+    $post_type = get_post_type();
 
-	} elseif($post_type =='zee_portfolio'){
+    if ($post_type =='zee_team') {
+        $title = "Team";
+        $sub_title = '';
+    } elseif ($post_type =='zee_portfolio') {
+        $title = "Case Study";
+        $sub_title = get_the_title() ;
+    } elseif (in_category(23)) {
+        $title = get_cat_name(23);
+        $sub_title = category_description(23);
+    } else {
+        $title = zee_option('zee_blog_title');
 
-		$title = "Case Study";
-		$sub_title = get_the_title() ;
-
-	} elseif(in_category(23)){
-
-		$title = get_cat_name(23);
-		$sub_title = category_description(23);
-
-
-	} else{
-
-    $title = zee_option('zee_blog_title');
-
-    $sub_title = zee_option('zee_blog_subtitle');
-
-	}
-
-} elseif ( is_category() ) {
-
+        $sub_title = zee_option('zee_blog_subtitle');
+    }
+} elseif (is_category()) {
     $title = __("Category", ZEETEXTDOMAIN) . " : " . single_cat_title("", false);
 
     $sub_title = zee_option('zee_blog_subtitle');
-
-} elseif ( is_archive() ) {
+} elseif (is_archive()) {
     if (is_day()) {
         $title = __("Daily Archives", ZEETEXTDOMAIN) . " : " . get_the_date();
-
     } elseif (is_month()) {
         $title = __("Monthly Archives", ZEETEXTDOMAIN) . " : " . get_the_date("F Y");
-
     } elseif (is_year()) {
         $title = __("Yearly Archives", ZEETEXTDOMAIN) . " : " . get_the_date("Y");
-
     } else {
         $title = __("Blog Archives", ZEETEXTDOMAIN);
-
     }
 
     $sub_title = zee_option('zee_blog_subtitle');
-
-} elseif ( is_tag() ) {
+} elseif (is_tag()) {
     $title = $return .= __("Tag", ZEETEXTDOMAIN) . " : " . single_tag_title("", false);
-} elseif ( is_author() ) {
+} elseif (is_author()) {
     $title = __("Author: ", ZEETEXTDOMAIN);
-} elseif ( is_search() ) {
+} elseif (is_search()) {
     $title = __("Search results for", ZEETEXTDOMAIN) . " : " . get_search_query();
-} elseif ( is_tax( 'portfolios' ) ) {
+} elseif (is_tax('portfolios')) {
     $title = __("Portfolio", ZEETEXTDOMAIN);
-} elseif ( is_home() and !is_front_page() ) {
-
+} elseif (is_home() and !is_front_page()) {
     $page = get_queried_object();
 
-    if( is_null( $page ) ){
+    if (is_null($page)) {
         $title = zee_option('zee_blog_title');
         $sub_title = zee_option('zee_blog_subtitle');
     } else {
-
-     $ID = $page->ID;
-     $title = $page->post_title;
-     $sub_title = get_post_meta($ID, 'page_subtitle', true);
- }
-
-
-} elseif ( (is_page()) && (!is_front_page()) ) {
+        $ID = $page->ID;
+        $title = $page->post_title;
+        $sub_title = get_post_meta($ID, 'page_subtitle', true);
+    }
+} elseif ((is_page()) && (!is_front_page())) {
     $page = get_queried_object();
 
     $ID = $page->ID;
 
     $title = $page->post_title;
     $sub_title = get_post_meta($ID, 'page_subtitle', true);
-
-} elseif( is_front_page() ){
-
+} elseif (is_front_page()) {
     unset($title);
 }
 
-echo (isset($title) ? '
+echo(isset($title) ? '
 
     <section id="title" class="imar-blue">
     <div class="container">
