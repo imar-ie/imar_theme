@@ -55,18 +55,24 @@
 				<ul>
 					<li>
 						<a href="http://www.enterprise-ireland.com/" target="_blank" title="Enterprise Ireland">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/ei.png" alt="Enterprise Ireland" width="195" height="60" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/ei.png" alt="Enterprise Ireland" width="175" height="60" />
 						</a>
 					</li>
 					<li>
 						<a href="http://www.ittralee.ie" target="_blank" title="Munster Technological University ">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/mtu.png" alt="Munster Technological University" width="230" height="60" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/mtu.png" alt="Munster Technological University" width="175" height="60" />
 						</a>
 					</li>
-					<li>
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tech_gateway.png" alt="IMaR" width="240" height="60" />
+          <li>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tech_gateway.png" alt="IMaR" width="200" height="60" />
 					</li>
-				</ul>	
+          <li>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/eu_regional_dev_fund_logo.png" alt="EU RDF" width="175" height="60" />
+          </li>
+          <li>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/eu_struct_fund_logo.png" alt="EU Structural and Inverstment fund" width="175" height="60" />
+          </li>
+				</ul>
 				<p>
 					<em>Investing in your future</em>
 				</p>
