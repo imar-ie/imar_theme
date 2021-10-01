@@ -59,7 +59,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="http://www.ittralee.ie" target="_blank" title="Munster Technological University ">
+						<a href="http://www.mtu.ie" target="_blank" title="Munster Technological University ">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/mtu.png" alt="Munster Technological University" width="175" height="60" />
 						</a>
 					</li>
