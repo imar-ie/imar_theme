@@ -16,7 +16,7 @@
 <section id="gateway-info" class="hidden-xs">
   <div class="container">
     <div class="row">
-      IMaR is part of the Munster Technological University, a nationwide resource for industry aimed at assisting in the delivery of innovative and/or near to market solutions for both local and national industry.
+      IMaR, based in Munster Technological University Kerry, is a nationwide resource for companies seeking to develop new products, processes or services. Supported by Enterprise Ireland, IMaR asissts in the delivery of state of the art digital solutions across all sectors of enterprise in Ireland.
     </div>
   </div>
 </section>
