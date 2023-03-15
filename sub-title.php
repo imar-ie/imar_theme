@@ -14,6 +14,9 @@ if (is_single()) {
     } elseif ($post_type =='zee_portfolio') {
         $title = "Case Study";
         $sub_title = get_the_title() ;
+    } elseif ($post_type =='equipment') {
+        $title = get_the_title();
+        $sub_title = "Equipment";
     } elseif (in_category(23)) {
         $title = get_cat_name(23);
         $sub_title = category_description(23);
@@ -27,7 +30,13 @@ if (is_single()) {
 
     $sub_title = zee_option('zee_blog_subtitle');
 } elseif (is_archive()) {
-    if (is_day()) {
+
+  $sub_title = zee_option('zee_blog_subtitle');
+
+  if ($post_type =='equipment') {
+      $title = "Equipment";
+      $sub_title = "IMaR's state of the art equipment is available to assist companies.";
+  } elseif (is_day()) {
         $title = __("Daily Archives", ZEETEXTDOMAIN) . " : " . get_the_date();
     } elseif (is_month()) {
         $title = __("Monthly Archives", ZEETEXTDOMAIN) . " : " . get_the_date("F Y");
@@ -37,7 +46,6 @@ if (is_single()) {
         $title = __("Blog Archives", ZEETEXTDOMAIN);
     }
 
-    $sub_title = zee_option('zee_blog_subtitle');
 } elseif (is_tag()) {
     $title = $return .= __("Tag", ZEETEXTDOMAIN) . " : " . single_tag_title("", false);
 } elseif (is_author()) {

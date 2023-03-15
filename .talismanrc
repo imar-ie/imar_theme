@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: archive-equipment.php
+  checksum: 1271316ff3854f9ae3ffcd8749aff45670bb0198a1148d866e6ee0fdce8bdf38
+version: "1.0"

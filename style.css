@@ -494,4 +494,59 @@ li.plan-icon i{
 	border-color: #67bdec;
 }
 
+/*
+* equipment
+*/
 
+#equipment .item .odd a{
+  color:#67bdec;
+}
+
+#equipment .item .even a{
+  color:#f2542d;
+}
+
+#equipment .item a:hover{
+  color:#fff;
+}
+
+#equipment .item  .odd .info {
+  text-align:right;
+}
+
+#equipment .item  .even .info {
+  text-align:left;
+}
+
+#equipment .item h3{
+  //color:#fff;
+}
+
+#equipment .item p{
+  color:#fff;
+}
+
+#equipment .item img{
+  width:100%;
+}
+
+#equipment .item .info{
+  margin-top:5em;
+}
+
+
+/* .img-responsive {
+    width:100%;
+} */
+
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.padding-0 {
+    padding: 0;
+}
