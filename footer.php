@@ -53,29 +53,21 @@
 			<div class="col-sm-12 col-xs-12">
 				<!--<h3>Funding partners (?):</h3>-->
 				<ul>
+          <li>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/gov_ie.png" alt="IMaR"  height="60" />
+          </li>
+          <li>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/eu.png" alt="European Union" height="60" />
+          </li>
+          <li>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/sra.png" alt="Southern Regional Agency" height="60" />
+          </li>
 					<li>
 						<a href="http://www.enterprise-ireland.com/" target="_blank" title="Enterprise Ireland">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/ei.png" alt="Enterprise Ireland" width="175" height="60" />
 						</a>
 					</li>
-					<li>
-						<a href="http://www.mtu.ie" target="_blank" title="Munster Technological University ">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/mtu.png" alt="Munster Technological University" width="175" height="60" />
-						</a>
-					</li>
-          <li>
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tech_gateway.png" alt="IMaR" width="200" height="60" />
-					</li>
-          <li>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/eu_regional_dev_fund_logo.png" alt="EU RDF" width="175" height="60" />
-          </li>
-          <li>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/eu_struct_fund_logo.png" alt="EU Structural and Inverstment fund" width="175" height="60" />
-          </li>
 				</ul>
-				<p>
-					<em>Investing in your future</em>
-				</p>
 			</div>
 		</div>
 	</div>
