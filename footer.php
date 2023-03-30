@@ -61,19 +61,22 @@
 				<!--<h3>Funding partners (?):</h3>-->
 				<ul>
           <li>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/gov_ie.png" alt="IMaR"  height="60" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/gov_ie.png" alt="IMaR"/>
           </li>
           <li>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/eu.png" alt="European Union" height="60" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/eu.png" alt="European Union"/>
           </li>
           <li>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/sra.png" alt="Southern Regional Agency" height="60" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/sra.png" alt="Southern Regional Agency"/>
           </li>
 					<li>
 						<a href="http://www.enterprise-ireland.com/" target="_blank" title="Enterprise Ireland">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/ei.png" alt="Enterprise Ireland" width="175" height="60" />
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/supporters_logos/ei.png" alt="Enterprise Ireland"/>
 						</a>
 					</li>
+          <li>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tech_gateway.png" alt="EI Technology Gateway Network"/>
+          </li>
 				</ul>
 			</div>
 		</div>
