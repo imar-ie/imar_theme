@@ -44,6 +44,13 @@
 			</ul>
 		</div>
 	</div>
+  <div class="container mt-3" style="margin-top:5em">
+    <div class="row">
+      <p>
+        <em> “IMaR Technology Gateway is co-funded by the Government of Ireland and the European Union through the ERDF Southern, Eastern & Midland Regional Programme 2021-27”.</em>
+      </p>
+    </div>
+  </div>
 </section>
 
 <!--#supporters-->
